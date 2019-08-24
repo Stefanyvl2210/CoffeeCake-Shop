@@ -213,3 +213,24 @@ footer{
 .modulo_pago .main_button:hover{
     color: black;
 }
+
+.boton_inicio{
+    padding: 20px;
+    text-align: center;
+}
+
+.boton_inicio button{
+    background-color: var(--pink_color);
+    padding: var(--space);
+    font-size: var(--normal);
+    color: white;
+    border: 0;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.boton_inicio button:hover{
+    background-color: var(--light_pink_color);
+    color: black;
+    text-decoration: none;
+}
