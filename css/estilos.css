@@ -1,0 +1,215 @@
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+/*--------variables*/
+
+:root{
+    --pink_color: #ec7fbc;
+    --light_pink_color: #fed6ff;
+    --white_color: white;
+    --black_color: rgb(58, 57, 57);
+    /* Espaciado */
+    --space: 10px;
+    /* Tipografia */
+    --normal: 16px;
+    /* Box shadow */
+    --box:  0 0 5px rgb(58, 57, 57);
+}
+/*--------variables*/
+
+html,body{
+    padding: 0px; /*espaciado hacia adentro*/
+    margin: 0px; /*espaciado hacia afuera*/
+    font-size: var(--normal);
+    font-family: 'Open Sans', sans-serif;
+}
+
+label{
+    font-size: 14px;
+    padding-top: 15px;
+    padding-bottom: 0px;
+}
+
+input{
+    width: 100%;
+    height: 35px;
+    border-radius: 3px;
+    border: 1px solid grey;
+    box-sizing: border-box;
+}
+
+/*---------barra nav------------*/
+nav{
+    display: flex;
+    background-color: var(--pink_color);
+    padding: var(--space);
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav li{
+    padding-right: var(--space);
+    list-style: none;
+}
+
+nav li a{
+    color: black;
+    text-decoration: none;
+}
+
+nav li a:hover{ /*cambia el color de la letra al poner el mouse encima*/
+    color: var(--white_color);
+}
+
+/*--------- fin barra nav------------*/
+
+/* -------------- Main section--------*/
+
+.main_section{
+    padding: 50px;
+    text-align: center;
+    background-color: var(--light_pink_color);  
+}
+
+.products{
+    background-color: var(--light_pink_color);
+    background-image: url("../images/curve.png");
+    background-image: var(--white_color);
+    background-repeat: no-repeat;
+    background-size: 100% 60%;
+    background-position: bottom;    
+    display: flex;  
+}
+
+.product{
+    padding: 10px;
+    margin-left: 220px;
+    margin-top: -20px; 
+    margin-bottom: 10px;
+    width: 25%;
+    
+}
+
+.products .content{
+    background-color: var(--pink_color);
+    padding: 15px;
+    box-shadow: var(--box);
+    text-align: center;
+    
+}
+
+
+.products .main_button{
+    width: 100%;
+    background-color: var(--white_color);
+    padding: var(--space);
+    font-size: var(--normal);
+    color: black;
+    border: 0;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+.products .main_button:hover{
+    background-color: var(--light_pink_color);
+    color: black;
+    text-decoration: none;
+}
+
+/*-------------Features Section -----------*/
+
+.features_section{
+    padding: 5px;
+    text-align: center;
+    
+}
+
+.features{
+    display: flex;  
+}
+
+.feature{
+    margin-left: 80px;
+    width: 25%;   
+}
+
+.features .content{
+    padding: 15px;
+    border-radius: 50px;   
+    text-align: center;
+    
+}
+
+.imagen{
+    border-radius: 150px;
+}
+
+/*---------------witnesses (testigos)------------*/
+
+.witnesses_section{
+    padding: 5px;
+    text-align: center;
+    background-color: #fed6ff;
+}
+
+.witnesses{
+    padding: 7px;
+    display: flex;
+
+}
+
+.witness{
+    margin-left: 20px;
+    margin-right: 50px;
+    width: 15%;
+   
+}
+/*--------------------footer------------------*/
+footer{
+    display: flex;
+    justify-content: space-between;
+    font-size: var(--normal);
+    background-color: var(--pink_color);
+    padding: var(--space);
+    color: var(--white_color);
+}
+
+.contact a{
+    color: var(--white_color);
+}
+
+/*-----------------------producto---------------*/
+.pic{
+    border-radius: 70px;
+}
+.row{
+    padding: 15px;
+}
+
+/*------------------------venta------------------*/
+
+.modulo_pago{
+    background-color: var(--white_color);
+    box-shadow: var(--box);
+    padding: 15px;
+    text-align: center;
+}
+
+.img_venta{
+    text-align: center;
+    width: 100%;
+}
+
+.modulo_pago .main_button{
+    background-color: #ec7fbc;
+    color: white;
+    border-radius: 3px;
+}
+
+.modulo_pago .main_button:hover{
+    color: black;
+}

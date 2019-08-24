@@ -1,0 +1,24 @@
+@media (max-width: 600px){/*para saber si se está viendo desde un cel*/
+
+   
+    .product, .witness{
+        margin-top: auto;
+        margin-left: 20%;
+        width: 60%;
+    }
+    .main_section{
+        padding: 4%;
+    }
+
+    .features, .witnesses, .products{
+        display: inherit;
+        
+    }
+    .feature{
+        margin-top: auto;
+        margin-left: 15%;
+        width: 70%;
+        background-color: #fed6ff;
+    }
+    .
+}
