@@ -42,7 +42,7 @@ input{
 nav{
     display: flex;
     background-color: var(--pink_color);
-    padding: var(--space);
+    padding: 5px;
     justify-content: space-between;
     align-items: center;
 }
@@ -91,6 +91,7 @@ nav li a:hover{ /*cambia el color de la letra al poner el mouse encima*/
     margin-top: -2%; 
     margin-bottom: 1%;
     width: 30%;
+    
 }
 
 .products .content{
@@ -98,7 +99,7 @@ nav li a:hover{ /*cambia el color de la letra al poner el mouse encima*/
     padding: 3%;
     box-shadow: var(--box);
     text-align: center;
-    
+
 }
 /*---------------------- boton de compra de los productos---------*/
 .products .main_button{

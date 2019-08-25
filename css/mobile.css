@@ -1,7 +1,16 @@
 @media (max-width: 600px){/*para saber si se está viendo desde un cel*/
 
-    .nav li{
-        padding-right: 1%;
+    nav{
+        display: flex;
+        background-color: var(--pink_color);
+        padding: 1%;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    nav li{
+        padding-right: var(--space);
+        list-style: none;
     }
     .product, .witness{
         margin: auto;
@@ -23,12 +32,21 @@
         background-color: #fed6ff;
     }
     .witnesses .imagen{
-        height: 150px;
-        width: 150px;        
+        height: 120px;
+        width: 120px;        
     }
     
     .product{
         padding-bottom: 5%;
+    }
+
+    .row_v{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;  
+    }
+    .col-5, .col-7{
+        width: 100%;
     }
     
 }
