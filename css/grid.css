@@ -2,10 +2,8 @@
     max-width: 900px;
     
 }
-
 .row{
-    display: flex;
-    
+    display: flex;   
 }
 /*el porcentaje es por la cantidad de columnas*/
 .col-1{

@@ -86,23 +86,21 @@ nav li a:hover{ /*cambia el color de la letra al poner el mouse encima*/
 }
 
 .product{
-    padding: 10px;
-    margin-left: 220px;
-    margin-top: -20px; 
-    margin-bottom: 10px;
-    width: 25%;
-    
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: -2%; 
+    margin-bottom: 1%;
+    width: 30%;
 }
 
 .products .content{
     background-color: var(--pink_color);
-    padding: 15px;
+    padding: 3%;
     box-shadow: var(--box);
     text-align: center;
     
 }
-
-
+/*---------------------- boton de compra de los productos---------*/
 .products .main_button{
     width: 100%;
     background-color: var(--white_color);
@@ -146,6 +144,8 @@ nav li a:hover{ /*cambia el color de la letra al poner el mouse encima*/
 
 .imagen{
     border-radius: 150px;
+    height: 150px;
+    width: 150px;
 }
 
 /*---------------witnesses (testigos)------------*/
@@ -166,7 +166,6 @@ nav li a:hover{ /*cambia el color de la letra al poner el mouse encima*/
     margin-left: 20px;
     margin-right: 50px;
     width: 15%;
-   
 }
 /*--------------------footer------------------*/
 footer{
