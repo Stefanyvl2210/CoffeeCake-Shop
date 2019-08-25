@@ -1,6 +1,8 @@
 @media (max-width: 600px){/*para saber si se está viendo desde un cel*/
 
-   
+    .nav li{
+        padding-right: 1%;
+    }
     .product, .witness{
         margin: auto;
         margin-left: 10%;
@@ -25,7 +27,8 @@
         width: 150px;        
     }
     
-    .container{
-        
+    .product{
+        padding-bottom: 5%;
     }
+    
 }
