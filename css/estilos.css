@@ -191,14 +191,25 @@ footer{
 }
 
 /*------------------------venta------------------*/
-
+.row_v{
+    display: flex;
+    flex-wrap: wrap;
+}
 .modulo_pago{
     background-color: var(--white_color);
     box-shadow: var(--box);
-    padding: 15px;
+    padding: 1.5%;
     text-align: center;
+    margin-right: 5%;
+    margin-left: 5%;
 }
+.modulo_pago.producto{
 
+    width: 35%;
+}
+.modulo_pago.formulario{
+    width: 45%;
+}
 .img_venta{
     text-align: center;
     width: 100%;
@@ -214,6 +225,8 @@ footer{
     color: black;
 }
 
+/*------------------------------------ fin de venta----------------------*/
+/*boton inicio de pagina products-*/
 .boton_inicio{
     padding: 20px;
     text-align: center;
@@ -234,3 +247,4 @@ footer{
     color: black;
     text-decoration: none;
 }
+

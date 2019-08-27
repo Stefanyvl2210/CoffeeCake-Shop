@@ -41,12 +41,21 @@
     }
 
     .row_v{
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;  
+        margin: center;
+        display: inherit;       
     }
-    .col-5, .col-7{
-        width: 100%;
+    .modulo_pago.producto{
+        text-align: center;
+        width: 80%;
+        margin-right: 10%;
+        margin-left: 10%;
+        margin-bottom: 10%;
     }
+    .modulo_pago.formulario{
+        width: 80%;
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+    
     
 }
