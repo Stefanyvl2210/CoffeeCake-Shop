@@ -22,7 +22,7 @@
         padding: 4%;
     }
     
-    .features, .products, .witnesses{
+    .features, .products, .witnesses, .faqs{
         display: inherit;       
     }
     .feature{    
@@ -55,6 +55,9 @@
         width: 80%;
         margin-right: 10%;
         margin-left: 10%;
+    }
+    .faq{
+        margin-bottom: 15px;
     }
     
     
