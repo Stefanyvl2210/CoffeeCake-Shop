@@ -1,24 +1,64 @@
 @media (max-width: 600px){/*para saber si se está viendo desde un cel*/
 
-   
+    nav{
+        display: flex;
+        background-color: var(--pink_color);
+        padding: 1%;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    nav li{
+        padding-right: var(--space);
+        list-style: none;
+    }
     .product, .witness{
-        margin-top: auto;
-        margin-left: 20%;
-        width: 60%;
+        margin: auto;
+        margin-left: 10%;
+        margin-right: 10%;
+        width: 80%;
     }
     .main_section{
         padding: 4%;
     }
-
-    .features, .witnesses, .products{
-        display: inherit;
-        
+    
+    .features, .products, .witnesses, .faqs{
+        display: inherit;       
     }
-    .feature{
-        margin-top: auto;
-        margin-left: 15%;
-        width: 70%;
+    .feature{    
+        margin-left: 10%;
+        margin-right: 10%;
+        width: 80%;
         background-color: #fed6ff;
     }
-    .
+    .witnesses .imagen{
+        height: 120px;
+        width: 120px;        
+    }
+    
+    .product{
+        padding-bottom: 5%;
+    }
+
+    .row_v{
+        margin: center;
+        display: inherit;       
+    }
+    .modulo_pago.producto{
+        text-align: center;
+        width: 80%;
+        margin-right: 10%;
+        margin-left: 10%;
+        margin-bottom: 10%;
+    }
+    .modulo_pago.formulario{
+        width: 80%;
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+    .faq{
+        margin-bottom: 15px;
+    }
+    
+    
 }
